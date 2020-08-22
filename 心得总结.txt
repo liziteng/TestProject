@@ -13,4 +13,7 @@
 在 工具 -> 选项 -> 比较 -> 合并工具 改成 自定义
 合并命令: 选择自己的Unity文件夹\Editor\Data\Tools\UnityYAMLMerge.exe
 参数:merge -p $BASE $REMOTE $LOCAL $MERGED
+
+4. 出现密码不对的情况，尝试删除其他账户信息。 
+工具->用户->点击其他账号->下方有删除键
  
