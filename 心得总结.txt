@@ -8,3 +8,9 @@
 如果master分支被删除，需要右键 -> 追踪远程分支, 
 然后把当前分支( 这个分支可以不叫master ) 和远程分支master挂钩 ( 这里选择的master其实是github里面的,属于远程分支 )
 如果不做以上步骤,本地文件不会被上传到github.
+
+3. Unity的场景融合需要使用unity的融合工具。
+在 工具 -> 选项 -> 比较 -> 合并工具 改成 自定义
+合并命令: 选择自己的Unity文件夹\Editor\Data\Tools\UnityYAMLMerge.exe
+参数:merge -p $BASE $REMOTE $LOCAL $MERGED
+ 
