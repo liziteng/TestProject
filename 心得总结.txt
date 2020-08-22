@@ -14,10 +14,10 @@
 合并命令: 选择自己的Unity文件夹\Editor\Data\Tools\UnityYAMLMerge.exe
 参数:merge -p $BASE $REMOTE $LOCAL $MERGED
 
-4. 出现密码不对的情况，尝试删除其他账户信息。 
-工具->用户->点击其他账号->下方有删除键
-
-重启sourcetree
+4. 出现密码不对的情况，尝试删除其他账户信息。尝试以下方法：
+a. 工具->用户->点击其他账号->下方有删除键
+b. 点右上角设置，在remote paths里面的用户上加上一个 用户名@ 试一试
+c. 重启sourcetree
 
 5. 建议多每个人在开始时创建一个分支，分支测试都没问题了再提交到master
 因为如果每个人都去修改master的话，出了问题不好修复。
